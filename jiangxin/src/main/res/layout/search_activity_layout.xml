@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/main_search_frame_shape"
+            android:queryHint="@string/main_tab1_search_hint">
+        </android.support.v7.widget.SearchView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/search_container"
+        android:layout_below="@+id/tb1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/main_tab1_search_default_view_frame"
+            layout="@layout/main_tab1_search_default_view_frame"
+            android:visibility="visible"/>
+        <include
+            android:id="@+id/main_tab1_search_input_notice_frame"
+            layout="@layout/main_tab1_search_input_notice_frame"
+            android:visibility="gone"/>
+        <include
+            android:id="@+id/main_tab1_search_result_frame"
+            layout="@layout/main_tab1_search_result_frame"
+            android:visibility="gone"/>
+        <include
+            android:id="@+id/main_tab1_searching_loading_progress"
+            layout="@layout/main_tab1_searching_loading_progress"
+            android:visibility="gone"/>
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

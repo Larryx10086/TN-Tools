@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#0091FF</color>
+
+    <color name="main_bottom_tabs_bg">#FFFFFF</color>
+    <color name="main_search_text_color">#0091FF</color>
+    <color name="main_search_hint_text_color">#B8B8C1</color>
+    <color name="main_search_view_line_color">#DBE0E6</color>
+    <color name="main_search_view_title_color">#404956</color>
+
+    <color name="main_tab3_bg_color">#BEE3FF</color>
+    <color name="main_tab3_online_test_sub_text_color">#BEE3FF</color>
+    <color name="main_tab3_online_test_ranking_text_color">#966D55</color>
+
+    <color name="main_tab3_btn_clicked_bg">#BEE3FF</color>
+
+    <color name="main_tab4_profile_nick_name_text_color">#404956</color>
+    <color name="main_tab4_profile_id_text_color">#6D7278</color>
+    <color name="main_tab4_profile_t_coin_text_color">#FF9900</color>
+    <color name="main_tab4_profile_split_line_color">#DBE0E6</color>
+</resources>

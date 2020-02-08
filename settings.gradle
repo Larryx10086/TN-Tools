@@ -1,0 +1,1 @@
+include ':app', ':helloworld', ':MeizuBrowserDemo', ':TaboolaFragmentTest', ':jiangxin', 'StartMagazineAPIDemo', 'DatePickerDemo'

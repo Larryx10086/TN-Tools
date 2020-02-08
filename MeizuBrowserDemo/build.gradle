@@ -29,7 +29,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //Include the Taboola SDK binary
-    implementation 'com.taboola:android-sdk:2.3.0'
+    implementation 'com.taboola:android-sdk:2.3.7'
 
     //Include Chrome custom tabs (mandatory)
     implementation 'com.android.support:customtabs:28.+'
@@ -43,7 +43,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // SDK dependencies
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'com.squareup.picasso:picasso:2.5.2' //See step 6 If you wish to use other image loading library than picasso
 }

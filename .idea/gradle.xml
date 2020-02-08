@@ -13,12 +13,7 @@
             <option value="$PROJECT_DIR$/MeizuBrowserDemo" />
             <option value="$PROJECT_DIR$/StartMagazineAPIDemo" />
             <option value="$PROJECT_DIR$/TaboolaFragmentTest" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/helloworld" />
             <option value="$PROJECT_DIR$/jiangxin" />
-            <option value="$PROJECT_DIR$/tinnolauncher" />
-            <option value="$PROJECT_DIR$/tinnopkg" />
-            <option value="$PROJECT_DIR$/tinnoreflectview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

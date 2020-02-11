@@ -1,8 +1,5 @@
 package com.celltick.apac.news.util;
 
-/**
- * Created by tomchen on 2/21/16.
- */
 public class Constant {
 
     public static final int COUNT_IMAGE = 965;
@@ -58,11 +55,10 @@ public class Constant {
         Start Magazine ~~~~
      */
 
-    public static final String PUBLISHERID = "publisherId=xiaolei10086-NEWS";
-    public static final String KEY = "&key=DdJwjBciDrPzQvxJhqbga84ndKCBViG0";
-
-//    public static final String PUBLISHERID = "publisherId=Meizu-News-Web";
-//    public static final String KEY = "&key=dHtcXRChlAex2u7XhINPHiI0rnelXAVx";
+//    public static final String PUBLISHERID = "publisherId=xiaolei10086-NEWS";
+//    public static final String KEY = "&key=DdJwjBciDrPzQvxJhqbga84ndKCBViG0";
+    public static final String PUBLISHERID = "publisherId=Magazine_from_Starter";
+    public static final String KEY = "&key=XE4n3Zt72XKP1ciSw1gZC77t9Gf0bkOp";
 
     public static final int NUM_SM_1ST_REQUEST = 20;
     public static final int NUM_SM_NORMAL_REQUEST = 10;

@@ -32,7 +32,12 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
 
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
     }
 
     buildscript {
@@ -42,7 +47,7 @@ android {
             maven { url "http://jcenter.bintray.com"}
         }
         dependencies {
-            classpath 'com.android.tools.build:gradle:3.5.2'
+            classpath 'com.android.tools.build:gradle:3.5.3'
 
             // NOTE: Do not place your application dependencies here; they belong
             // in the individual module build.gradle files
@@ -117,6 +122,9 @@ allprojects {
         jcenter()
         google()
         maven {url "https://maven.google.com"}
+        maven {
+            url "https://jitpack.io"
+        }
     }
 }
 

@@ -76,6 +76,7 @@ public class CricketNewsRequestThread extends Thread{
 			public void onResponse(Response response) throws IOException {
 				Log.d(TAG,"onResponse");
 				String jsonData = response.body().string();
+//				Log.d(TAG,"jsonData = " + jsonData);
 				mSMString = jsonData;
 				sendMSG(Constant.SUCCESS,mSMString);
 			}

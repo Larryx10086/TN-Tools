@@ -1,0 +1,84 @@
+<!-- RecyclerView 的每一项布局-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/rcv_video_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="220dp"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="centerCrop"
+            fresco:actualImageScaleType="focusCrop" />
+        <TextView
+            android:id="@+id/rcv_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="== Title ==" />
+        <TextView
+            android:id="@+id/rcv_video_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="== Description ==" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/rcv_video_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="== Branding ==" />
+
+            <TextView
+                android:id="@+id/rcv_video_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:visibility="gone"
+                android:text=""
+                android:drawablePadding="5dp" />
+
+
+            <TextView
+                android:id="@+id/rcv_video_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="right"
+                android:visibility="gone"
+                android:text="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

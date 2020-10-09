@@ -3,11 +3,30 @@
 buildscript {
     
     repositories {
+//        google()
+//        jcenter()
+
+//        google()
+        jcenter(){url 'https://maven.aliyun.com/nexus/content/groups/public/'}   //此处使用的是阿里的镜像仓库
+        //注意：需要删除maven()才有效
+
+//        maven {
+//            url 'https://maven.aliyun.com/repository/google/'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/repository/jcenter/'
+//        }
+
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url 'https://jitpack.io'}
         google()
-        jcenter()
+
+
+
+
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:4.0.1'
         
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -17,8 +36,14 @@ buildscript {
 
 allprojects {
     repositories {
+//        google()
+//        jcenter()
+
+
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url 'https://jitpack.io'}
         google()
-        jcenter()
+
     }
 }
 

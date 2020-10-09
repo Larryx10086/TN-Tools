@@ -1,1 +1,3 @@
-include ':MeizuBrowserDemo', ':TaboolaFragmentTest', ':jiangxin', 'StartMagazineAPIDemo', 'DatePickerDemo'
+include ':sdk-callback-verify'
+include ':TNAPI20Tester'
+include 'TaboolaNewsAPI20'
